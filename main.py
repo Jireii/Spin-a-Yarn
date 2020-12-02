@@ -66,7 +66,7 @@ def story():
         print(random.choice(ftSenPlace) + random.choice(ftPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(ftBuilding) + random.choice(prog1) + random.choice(ftNameM) + random.choice(acMid) + random.choice(acEndDk))
 
     elif setting == 0 and theme == 1 and tone == 0:
-        print(random.choice(ftSenPlace) + random.choice(ftPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(ftBuilding) + random.choice(prog1) + random.choice(ftNameM) + random.choice(rmMid) + random.choice(rmEndLt))
+        print(random.choice(ftSenPlace) + random.choice(ftPlace) + random.choice(intro0) + random.choice(ftNameF) + random.choice(intro1) + random.choice(ftBuilding) + random.choice(prog1) + random.choice(ftNameM) + random.choice(rmMid) + random.choice(rmEndLt))
     
     elif setting == 0 and theme == 1 and tone == 1:
         print(random.choice(ftSenPlace) + random.choice(ftPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(ftBuilding) + random.choice(prog1) + random.choice(ftNameF) + random.choice(rmMid) + random.choice(rmEndDk))
