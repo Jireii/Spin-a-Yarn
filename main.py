@@ -3,16 +3,16 @@ import time
 import random
 
 print('\nWelcome to the Spin a Yarn program.\n\n')
-# time.sleep(0.75)
+time.sleep(0.75)
 
 print('Spinning a yarn is a proccess which involves spinning and twisting fiber to form a yarn.')
 print('As an idiom, Spin a yarn is defined as when the one tells a story.\n')
 print('In this program, you will choose(spinning) some words(fibers) to form a story(yarn).')
 print('The program will generate a story based on your choices.\n')
-# time.sleep(7.5)
+time.sleep(7.5)
 
 print('Now you shall choose the pieces to form the story :\n')
-# time.sleep(1)
+time.sleep(1)
 
 nsetting = ['fantasy', 'modern']
 print('Please choose your desired story setting.')
