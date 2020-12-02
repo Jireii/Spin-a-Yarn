@@ -1,5 +1,3 @@
-import random
-
 # Modern
 mdNameM = ['Kane', 'Rick', 'Troy', 'Mike']
 mdNameF = ['kaelyn', 'Natalie', 'Marie', 'Daisy']
@@ -29,30 +27,3 @@ intro1 = [' and walks out of ', ' and walks into ', ' is in a ']
 
 prog0 = ['. While doing so ', '. At that time']
 prog1 = [' then catches a glimpse of someone named ', ' then meet with ', ' then encountered with ']
-
-# def story():
-#     from main import setting, theme, tone
-
-#     if setting == 0 and theme == 0 and tone == 0:
-#         print(random.choice(ftSenPlace) + random.choice(ftPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(ftBuilding) + random.choice(prog1) + random.choice(acMid) + random.choice(acEndLT))
-
-#     elif setting == 0 and theme == 0 and tone == 1:
-#         print(random.choice(ftSenPlace) + random.choice(ftPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(ftBuilding) + random.choice(prog1) + random.choice(acMid) + random.choice(acEndDk))
-
-#     elif setting == 0 and theme == 1 and tone == 0:
-#         print(random.choice(ftSenPlace) + random.choice(ftPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(ftBuilding) + random.choice(prog1) + random.choice(rmMid) + random.choice(rmEndLt))
-    
-#     elif setting == 0 and theme == 1 and tone == 1:
-#         print(random.choice(ftSenPlace) + random.choice(ftPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(ftBuilding) + random.choice(prog1) + random.choice(rmMid) + random.choice(rmEndDk))
-
-#     elif setting == 1 and theme == 0 and tone == 0:
-#         print(random.choice(mdSenPlace) + random.choice(mdPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(mdBuilding) + random.choice(prog1) + random.choice(acMid) + random.choice(acEndLT))
-
-#     elif setting == 1 and theme == 0 and tone == 1:
-#         print(random.choice(mdSenPlace) + random.choice(mdPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(mdBuilding) + random.choice(prog1) + random.choice(acMid) + random.choice(acEndDk))
-
-#     elif setting == 1 and theme == 1 and tone == 0:
-#         print(random.choice(mdSenPlace) + random.choice(mdPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(mdBuilding) + random.choice(prog1) + random.choice(rmMid) + random.choice(rmEndLt))
-
-#     elif setting == 1 and theme == 1 and tone == 1:
-#         print(random.choice(mdSenPlace) + random.choice(mdPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(mdBuilding) + random.choice(prog1) + random.choice(rmMid) + random.choice(rmEndDk))
