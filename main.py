@@ -60,28 +60,28 @@ def story():
     from back import mdNameM, mdNameF, mdPlace, mdBuilding, mdSenPlace, ftNameM, ftNameF, ftPlace, ftBuilding, ftSenPlace, acMid, acEndLT, acEndDk, rmMid, rmEndLt, rmEndDk, intro0, intro1, prog0, prog1
 
     if setting == 0 and theme == 0 and tone == 0:
-        print(random.choice(ftSenPlace) + random.choice(ftPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(ftBuilding) + random.choice(prog1) + random.choice(acMid) + random.choice(acEndLT))
+        print(random.choice(ftSenPlace) + random.choice(ftPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(ftBuilding) + random.choice(prog1) + random.choice(ftNameF) + random.choice(acMid) + random.choice(acEndLT))
 
     elif setting == 0 and theme == 0 and tone == 1:
-        print(random.choice(ftSenPlace) + random.choice(ftPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(ftBuilding) + random.choice(prog1) + random.choice(acMid) + random.choice(acEndDk))
+        print(random.choice(ftSenPlace) + random.choice(ftPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(ftBuilding) + random.choice(prog1) + random.choice(ftNameM) + random.choice(acMid) + random.choice(acEndDk))
 
     elif setting == 0 and theme == 1 and tone == 0:
-        print(random.choice(ftSenPlace) + random.choice(ftPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(ftBuilding) + random.choice(prog1) + random.choice(rmMid) + random.choice(rmEndLt))
+        print(random.choice(ftSenPlace) + random.choice(ftPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(ftBuilding) + random.choice(prog1) + random.choice(ftNameM) + random.choice(rmMid) + random.choice(rmEndLt))
     
     elif setting == 0 and theme == 1 and tone == 1:
-        print(random.choice(ftSenPlace) + random.choice(ftPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(ftBuilding) + random.choice(prog1) + random.choice(rmMid) + random.choice(rmEndDk))
+        print(random.choice(ftSenPlace) + random.choice(ftPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(ftBuilding) + random.choice(prog1) + random.choice(ftNameF) + random.choice(rmMid) + random.choice(rmEndDk))
 
     elif setting == 1 and theme == 0 and tone == 0:
-        print(random.choice(mdSenPlace) + random.choice(mdPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(mdBuilding) + random.choice(prog1) + random.choice(acMid) + random.choice(acEndLT))
+        print(random.choice(mdSenPlace) + random.choice(mdPlace) + random.choice(intro0) + random.choice(mdNameF) + random.choice(intro1) + random.choice(mdBuilding) + random.choice(prog1) + random.choice(mdNameM) + random.choice(acMid) + random.choice(acEndLT))
 
     elif setting == 1 and theme == 0 and tone == 1:
-        print(random.choice(mdSenPlace) + random.choice(mdPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(mdBuilding) + random.choice(prog1) + random.choice(acMid) + random.choice(acEndDk))
+        print(random.choice(mdSenPlace) + random.choice(mdPlace) + random.choice(intro0) + random.choice(mdNameF) + random.choice(intro1) + random.choice(mdBuilding) + random.choice(prog1) + random.choice(mdNameF) + random.choice(acMid) + random.choice(acEndDk))
 
     elif setting == 1 and theme == 1 and tone == 0:
-        print(random.choice(mdSenPlace) + random.choice(mdPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(mdBuilding) + random.choice(prog1) + random.choice(rmMid) + random.choice(rmEndLt))
+        print(random.choice(mdSenPlace) + random.choice(mdPlace) + random.choice(intro0) + random.choice(mdNameM) + random.choice(intro1) + random.choice(mdBuilding) + random.choice(prog1) + random.choice(mdNameF) + random.choice(rmMid) + random.choice(rmEndLt))
 
     elif setting == 1 and theme == 1 and tone == 1:
-        print(random.choice(mdSenPlace) + random.choice(mdPlace) + random.choice(intro0) + random.choice(ftNameM) + random.choice(intro1) + random.choice(mdBuilding) + random.choice(prog1) + random.choice(rmMid) + random.choice(rmEndDk))
+        print(random.choice(mdSenPlace) + random.choice(mdPlace) + random.choice(intro0) + random.choice(mdNameF) + random.choice(intro1) + random.choice(mdBuilding) + random.choice(prog1) + random.choice(mdNameM) + random.choice(rmMid) + random.choice(rmEndDk))
 
     return
 
